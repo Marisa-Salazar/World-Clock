@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>World Clock</title>
   </head>
@@ -17,23 +19,23 @@
         <option value="">Albuquerque</option>
         <option value="">Dallas</option>
       </select>
-      <div class="city">
+      <div class="city" id="tokyo">
         <div>
-          <h2>Sydney 🇦🇺</h2>
+          <h2>Tokyo</h2>
           <div class="date">July 11, 2023</div>
         </div>
         <div class="time">8:15:43 <small> PM </small></div>
       </div>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
-          <h2>Tucson 🇺🇸</h2>
+          <h2>Paris</h2>
           <div class="date">July 11, 2023</div>
         </div>
         <div class="time">8:15:43 <small> PM </small></div>
       </div>
-      <div class="city">
+      <div class="city" id="newYork">
         <div>
-          <h2>Tokyo 🇯🇵</h2>
+          <h2>New York</h2>
           <div class="date">July 11, 2023</div>
         </div>
         <div class="time">8:15:43 <small> PM </small></div>
@@ -43,5 +45,6 @@
       Coded by <strong>Marisa Salazar</strong> and is open sourced on
       <a href="https://github.com/Marisa-Salazar/World-Clock">Github</a>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
